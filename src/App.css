@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.link-text { 
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.loader-center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 89vh;
+}
+
+.custom-tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-tabs .PrivateTabIndicator-colorSecondary-3 {
+  background-color: #003251;
+}
+
+.custom-tabs .MuiTab-textColorInherit.Mui-selected {
+  color: #003251;
+}
+
+.custom-tabs .MuiTabs-scroller {
+  height: 48px;
+}
+
+.Analysis-screen .MuiDataGrid-root .MuiDataGrid-row:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.Analysis-screen .MuiDataGrid-root .MuiDataGrid-row {
+  cursor: pointer;
+}
+
+.Analysis-screen .MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  font-weight: bold;
+}
+
+.Analysis-box .MuiBox-root {
+  padding: 24px 0 0;
+}
+
+.analysisInfo-wrap {
+  height: calc(100% - 4px);
+  display: flex;
+  flex-direction: column;
+  margin-top: 4px;
+}
+
+.analysisInfo-form > div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.analysisInfo-form {
+  flex: 1;
+  margin: 4px 0;
+}
+
+.analysisInfo-wrap .MuiButton-containedPrimary,
+.modal-footer .MuiButton-containedPrimary {
+  background-color: #003251;
+}
+
+.analysisInfo-wrap .MuiButton-containedPrimary:hover,
+.modal-footer .MuiButton-containedPrimary:hover {
+  background-color: #113347;
+}
+
+.modal-footer .MuiButton-outlinedSecondary {
+  color: #003251;
+  border: 1px solid rgb(0 50 81);
+}
+
+.modal-footer .MuiButton-outlinedSecondary:hover {
+  border: 1px solid #003251;
+}
+
+.modal .MuiRadio-colorSecondary.Mui-checked {
+  color: #003251;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container.outline-none:focus-visible {
+  outline: none;
+}
+
+.modal-container {
+  border-radius: 1rem;
+  background-color: #fff;
+  min-width: 400px;
+}
+
+.modal-header {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #003251;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  font-size: 12px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.formdata{
+  margin-top: 1rem ;
+}
+
+.formdata-tag{
+  text-transform: capitalize;
+}
+
+.MuiSnackbarContent-root {
+  background-color: #f75676 !important;
+
+}
